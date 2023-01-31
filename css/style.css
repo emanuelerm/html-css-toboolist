@@ -35,7 +35,7 @@ nav {
     height: 40px;
     margin-left: 40px;
     padding-top: 5px;
-    border-bottom: 2px #f6f8f9 solid;
+    border-bottom: 3px #f6f8f9 solid;
     border-top-left-radius: 10%;
     border-top-right-radius: 10%;
 }
@@ -62,4 +62,23 @@ input {
     border: 1px #ced3d7 solid;
     font-size: 0.7em;
     color: #ced3d7;
+}
+
+section {
+    margin: 25px 0 25px 40px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.check {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px #64c0a9 solid;
+    border-radius: 50%;
+    color: #64c0a9;
+    text-align: center;
+    line-height: 20px;
 }
