@@ -14,14 +14,44 @@
     </header>
     <main>
         <nav>
-            <button class="textCentered blueLabel">Add Task</button>
+            <button>Add Task</button>
             <input type="text" placeholder="Add Section">
         </nav>
         <section>
-            <h2>New Task</h2>
-            <ul>
-                <li><div class="check">&check;</div> Quarterly Newsletter</li>
-            </ul>
+            <details>
+                <summary>
+                    <h2>New Task</h2>
+                </summary>
+                <ul>
+                    <li><div class="check">&check;</div> Quarterly Newsletter <div class="label blue">Editorial</div></li>
+                </ul>
+            </details>
+        </section>
+        <section>
+            <details>
+                <summary>
+                    <h2>Today</h2>
+                </summary>
+                <ul>
+                    <li><div class="check">&check;</div> Recruiting blog post <div class="label blue">Editorial</div></li>
+                    <li><div class="check">&check;</div> Mobile app launch <div class="label" id="violet">Q1 Goals</div></li>
+                    <li><div class="cross">&cross;</div> Interview John H. <div class="label" id="green">Recruiting</div></li>
+                    <li><div class="check">&check;</div> Summit update to mobile storefronts <div class="label" id="orange">Mobile</div></li>
+                </ul>
+            </details>
+        </section>
+        <section>
+            <details>
+                <summary>
+                    <h2>Upcoming</h2>
+                </summary>
+                <ul>
+                    <li><div class="cross">&cross;</div> Schedule meeting with Alex</li>
+                    <li><div class="check">&check;</div> Homepage refresh <div class="label" id="pink">Website</div></li>
+                    <li><div class="check">&check;</div> Onboard new Sales team members <div class="label" id="kaki">Sales</div></li>
+                    <li><div class="check">&check;</div> Review editorial calendar <div class="label blue">Editorial</div></li>
+                </ul>
+            </details>
         </section>
     </main>
 </body>
